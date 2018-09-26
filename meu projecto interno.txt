@@ -1,0 +1,31 @@
+MOBILE ONLINE - futuramente pode ser util também OFFLINE
+USERS: management
+USE-CASES:
+>>>>> ver informação de todos os colaboradores, perceber quem está disponível e quando para serem alocados a um projecto novo
+
+* listar colaboradores que estão alocados ao projecto X entre as datas de Y a Z
+* o "Joaquim" vai estar livre em Outubro portanto tenho de me preocupar em arranjar-lhe um projecto
+* vai haver um projecto novo, preciso de 1 junior e 2 senior que vai 2 meses. vai buscar as pessoas que estão livres nessa data. aparece logo como sugestões as pessoas.
+
+(tentar pôr alguns dados dummy "iguais" aos existentes só pra referência)
+
+passo 0:
+configs e ver o que existe
+
+passo 1:
+mockup do ecrã, estimativa de tempo
+
+passo 2:
+modelo de dados
+
+
+tabela pessoa (first, last name, email, contact, position, placement)
+tabela empresa_cliente (nome, 
+
+
+---ideias minhas---
+opcional 1: listar a disponibilidade
+opcional 2: projectos a terminar
+opcional 3: livres na próxima semana (p.ex: quem vem de férias)
+
+
