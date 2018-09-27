@@ -12,18 +12,27 @@ USE-CASES:
 passo 0:
 configs e ver o que existe
 
+https://outfit.outsystemscloud.com/directory
+
 passo 1:
-mockup do ecrã, estimativa de tempo
+mockups de ecrãs, estimativa de tempo
+
+mockups de ecrãs: 20h
+modelo de dados: 20h
+desenvolvimento: 60h
 
 passo 2:
 modelo de dados
 
+entities:
+pessoa (first, last name, email, contact, project_id, clientcompany_id)
+clientcompany (id, nome, project_id, lat, long)
+projecto (id, nome, numberofpeople, begindate, duedate, pessoa_id)
+role (id, name, pessoa_id)
+absence (id, pessoa_id, startdate, duedate, motive)
 
-tabela pessoa (first, last name, email, contact, position, placement)
-tabela empresa_cliente (nome, 
 
-
----ideias minhas---
+----ideias minhas----
 opcional 1: listar a disponibilidade
 opcional 2: projectos a terminar
 opcional 3: livres na próxima semana (p.ex: quem vem de férias)
