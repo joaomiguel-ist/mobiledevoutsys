@@ -1,2 +1,4 @@
-Client adding and verifying works now as intended.
-Replicate to other screens should now be fast
+RolePerson works as intended:
+- a person can be multiple things (and be picked to be one of them in a project)
+
+- a role can be played by many people
